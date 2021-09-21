@@ -16,10 +16,11 @@ for (int i = 0; i < rows; i++){
 }
 
 int main(){
+    srand(time(0));
 int arr2d[3][10];
 for (int i = 0; i < 3; i++){
     for (int k = 0; k < 10; k++){
-    arr2d[i][k] = 11;
+    arr2d[i][k] = rand()%101;
     }
 }
 float avg[3];
