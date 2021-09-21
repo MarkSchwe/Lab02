@@ -13,7 +13,6 @@ cout << "The distance between p1 and p2 is " << dist << endl;
 return 0;
 }
 
-
 //Now for the point class, starting with the header file:
 
 
@@ -97,3 +96,4 @@ point point::operator = (point & rhs){
 
     return *this;
 }
+
